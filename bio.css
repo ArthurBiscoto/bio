@@ -75,22 +75,32 @@ body{
     border-radius: 5px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1200px) {
 
 
     .container {
         width: 30%;
         padding: 40px 40px;
     }
+
+    .img{
+        width: auto;
+        height: 100%;
+    }
 }
 
 
-@media (min-width: 760px) {
+@media (max-width: 500px) {
 
 
     .container {
-        width: 60%;
+        width: 90%;
         padding: 40px 40px;
+    }
+
+    .img{
+        height: 100%;
+        width: auto;
     }
 }
 
